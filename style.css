@@ -1,0 +1,96 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container{
+    box-sizing: content-box;
+    display: flex;
+    width: 680px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    /* border: 5px solid lightcyan; */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+}
+
+img{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.para1{
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 6px;
+    padding-left: 3px;
+}
+
+.para2{
+    font-family: 'Fraunces', serif;
+    font-size: 37px;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+
+.para3{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    padding-left: 3px;
+    margin-top: -10px;
+}
+
+.para4{
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+    margin-bottom: -10px;
+    margin-top: -20px;
+    float: left;
+    padding-left: 3px;
+}
+
+.para5{
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: line-through;
+    float: right;
+    margin-top: 11px;
+    margin-right: 45px;
+    padding-left: 3px;
+
+}
+
+.content{
+    padding: 20px 40px 40px 40px;
+    background-color: hsl(0, 0%, 100%);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    background-image: url("icon-cart.svg");
+    background-repeat: no-repeat;
+    background-position: 70px;
+    background-size: 18px;
+}
+
+button:hover{
+    background-color: hsl(158, 38%, 28%);
+    cursor: pointer;
+}
+
+footer{
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    height: 28px;   /*Height of the footer*/
+    margin-left: -10px;
+    margin-top: 45px;
+}
